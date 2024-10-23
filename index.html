@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PokemonCG.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Pokemon Card Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="card">
+            <p class="hp">
+                <span>HP</span>
+                <span id="HP"></span>
+            </p>
+            <div id="Artwork_Container">
+                <img id="Artwork" />
+            </div>
+            <h3 class="pokemon-name" id="Name"></h3>
+            <div class="types">
+                <span id="type1"></span>
+                <span id="type2"></span>
+            </div>
+            <div class="stats">
+                <div>
+                    <h4 id="Attack"></h4>
+                    <p class="stats_name">Attack</p>
+                </div>
+                <div>
+                    <h4 id="Defense"></h4>
+                    <p class="stats_name">Defense</p>
+                </div>
+                <div>
+                    <h4 id="Speed"></h4>
+                    <p class="stats_name">Speed</p>
+                </div>
+            </div>
+        </div>
+        <div id="button_container">
+            <button id="btn" onclick="GeneratePokemon()">Generate</button>
+        </div>
+    </div>
+    <p id="footer"> Made by LEMAIRE Vincent ＼（Ｔ∇Ｔ）／</p>
+
+    <script src="PokemonCG.js"></script>
+</body>
+
+</html>
